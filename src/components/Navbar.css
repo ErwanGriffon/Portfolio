@@ -1,0 +1,31 @@
+nav {
+  background-color: #333;
+  height: 50px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+li {
+  margin: 0 75px;
+}
+
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #333;
+}
