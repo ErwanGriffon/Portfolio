@@ -48,12 +48,12 @@
         display: grid;
         color: #fff;
         margin-top: 100px;
-        margin-left: 41%;
+        margin-left: 39%;
         margin-right: 50%;
         padding: 10px 20px;
         border-radius: 5px;
         width: 200px;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-gap: 10px;
    }
 
@@ -69,6 +69,11 @@
   
   .malt:hover{
     background-color: #FC5757;
+    color:black;
+  }
+
+  .twitter:hover{
+    background-color: #00acee;
     color:black;
   }
   @keyframes pixel {

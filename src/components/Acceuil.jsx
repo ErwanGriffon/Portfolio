@@ -3,7 +3,7 @@ import "./Acceuil.css";
 
 function Acceuil() {
   return (
-    <div className="fond-anim">
+    <div className="fond-anim" id="Acceuil">
       <div className="conteneur">
         <h1>Erwan Griffon</h1>
         <p>Devellopeur Web React.js</p>
@@ -19,6 +19,9 @@ function Acceuil() {
               </a>
             <a className="github" href="https://github.com/ErwanGriffon" target="_blank" rel="noopener noreferrer">
               <img src="" alt="GitHub"/>
+              </a>
+            <a className="twitter" href="https://twitter.com/ErwanDevWeb" target="_blank" rel="noopener noreferrer">
+              <img src="" alt="Twitter"/>
             </a>
           </div>
         </div>

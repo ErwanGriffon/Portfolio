@@ -1,0 +1,62 @@
+/* Conteneur principal */
+#CV {
+    background-color: #000000;
+    height: calc(100vh - 0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s ease-in-out;
+  }
+  #CV:hover {
+    background-color: #111111;
+  }
+  
+  /* Titre */
+  #CV h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  /* Conteneur des éléments */
+  .cv-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  
+  /* Image du CV */
+  .cv-image {
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+  }
+  
+  /* Bouton de téléchargement */
+  .cv-button {
+    display: block;
+    background-color: #c0c0c0;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out;
+    width: 200px;
+    margin: 20px 0;
+  }
+  
+  .cv-button:hover {
+    background-color: #444444;
+    color: white;
+  }
+
+  

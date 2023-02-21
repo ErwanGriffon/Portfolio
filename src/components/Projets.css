@@ -1,0 +1,91 @@
+/* CSS pour la page Projets */
+
+/* Conteneur principal */
+#Projets {
+    background-color: #ffffff;
+    padding: 80px 0;
+  }
+  
+  /* Titre */
+  #Projets h2 {
+    font-size: 46px;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+    margin: auto;
+  }
+  
+  /* Conteneur des projets */
+  .projets-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: start; /* Ajout de la propriété align-items */
+  }
+
+  /* Carte projet */
+.project-card {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    display: flex; /* Ajout de display flex */
+    flex-direction: column; /* Empilement vertical */
+  }
+  
+  /* Contenu projet */
+  .project-card .project-content {
+    padding: 30px;
+    flex-grow: 1; /* Contenu prend toute la hauteur disponible */
+  }
+
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Image projet */
+  .project-card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  /* Titre projet */
+  .project-card h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Description projet */
+  .project-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666666;
+    margin-bottom: 30px;
+  }
+  
+  /* Lien vers code source */
+  .project-card a {
+    display: block;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .project-card a:hover {
+    background-color: #444444;
+  }
+
+  
