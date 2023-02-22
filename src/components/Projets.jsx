@@ -21,7 +21,7 @@ function Projets() {
       id: 5,
       titre: "Piiquante",
       image: "/images/piiquante.png",
-      description: "Construction d'une API en backend pour le site HOT TAKES qui est une galerie de sauces piquantes",
+      description: "Construction d'une API en backend pour le site HOT TAKES qui est une galerie de sauces piquantes.",
       codeSource: "https://github.com/ErwanGriffon/Piiquante",
     },
     {
