@@ -4,17 +4,31 @@ import "./Projets.css";
 function Projets() {
   const projets = [
     {
-        id: 5,
+        id: 7,
         titre: "Mon Site",
         image: "/images/vitrine.jpg",
-        description: "Ici se trouve le repository React.js contenant les fichiers de mon site web. N'hésitez pas à y jeter un coup d'œil pour voir tout ce qui a été utilisé dans sa construction.",
+        description: "Ici se trouve le repository React.js contenant les fichiers de mon site web. N'hésitez pas à y jeter un coup d'œil.",
         codeSource: "https://github.com/ErwanGriffon/mon-site-vitrine",
+    },
+    {
+      id: 6,
+      titre: "Kasa",
+      image: "/images/kasa.png",
+      description: "Kasa est un projet qui fait appel à React.js pour un site de location immobilière entre particuliers.",
+      codeSource: "https://github.com/ErwanGriffon/Kasa",
+    },
+    {
+      id: 5,
+      titre: "Piiquante",
+      image: "/images/piiquante.png",
+      description: "Construction d'une API en backend pour le site HOT TAKES qui est une galerie de sauces piquantes",
+      codeSource: "https://github.com/ErwanGriffon/Piiquante",
     },
     {
         id: 4,
         titre: "SCSS Utility",
         image: "/images/css.jpg",
-        description: "Ici, vous pouvez trouver mes fichiers les plus utiles, que j'utilise en développant des sites internets. Faites-vous plaisir et utilisez-les à votre guise.",
+        description: "Ici, vous pouvez trouver mes fichiers les plus utiles, que j'utilise en développant des sites internets. Utilisez-les à votre guise.",
         codeSource: "https://github.com/ErwanGriffon/SCSS-Utility",
     },
     {

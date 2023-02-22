@@ -8,7 +8,7 @@ function Navbar() {
         <li><a href="#Acceuil">Accueil</a></li>
         <li><a href="#Projets">Projets</a></li>
         <li><a href="#CV">CV</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#Contact">Contact</a></li>
 
       </ul>
     </nav>

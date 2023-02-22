@@ -40,3 +40,7 @@
 .Projets-section {
   margin-top: 25px; /* Tu peux ajuster la valeur selon l'espace que tu souhaites ajouter */
 }
+
+html {
+	scroll-behavior: smooth;
+}
